@@ -8,6 +8,11 @@ body {
   padding-top: 50px; /* body padding for fixed top nav */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
