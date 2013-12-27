@@ -55,9 +55,9 @@ function menu_execute_active_handler($path = NULL, $deliver = TRUE) {
 
 I'll break this function into three parts:
 
-* The beginning with the comment `Check if site is offline` is something I abandoned entirely. If the site is offline, Symfony or the web server will handle it. ([Stack Backstage](https://github.com/atst/stack-backstage) is an HttpKernel-based alternative that provides similar functionality.)
-* The middle which begins with the comment `Only continue if the site status is not set` calls the Drupal page callback.
-* The end which begins with the comment `Deliver the result of the page callback to the browser` sends the page callback result to another function called a "delivery callback" which will actually render the page or *something* to the user.
+* The beginning with the comment *Check if site is offline* is something I abandoned entirely. If the site is offline, Symfony or the web server will handle it. ([Stack Backstage](https://github.com/atst/stack-backstage) is an HttpKernel-based alternative that provides similar functionality.)
+* The middle which begins with the comment *Only continue if the site status is not set* calls the Drupal page callback.
+* The end which begins with the comment *Deliver the result of the page callback to the browser* sends the page callback result to another function called a "delivery callback" which will actually render the page or *something* to the user.
 
 ## A near-perfect parallel
 
