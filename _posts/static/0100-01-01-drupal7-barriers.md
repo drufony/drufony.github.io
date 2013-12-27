@@ -55,11 +55,11 @@ Replacing the bootstrap with a Pimple container required hacking core, but it re
 
 Now that the bootstrap can be overridden, I can substitute different functionality for Drupal's original bootstrap phases. One of the most annoying features of Drupal 7 has been the class registry which requires the database. (If you have had to use `drush registry-rebuild` you know how the registry easily breaks especially when you're moving your Drupal database between environments.)
 
-We can use composer's autoloading instead. While Drupal 7's registry only scans enabled modules for classes, it's legitimate to include all classes in the autoloader. However, Drupal 7's profiles and multisite architecture require some special handling.
+Now I can use composer's autoloading instead. While Drupal 7's registry only scans enabled modules for classes, it's legitimate to include all classes in the autoloader. However, Drupal 7's profiles and multisite architecture require some special handling.
 
 Each location where modules can be installed now needs a composer.json file even if there are no third-party libraries. Composer can generate a classmap for a project, and if the autoload.php file for each of these locations is loaded in the correct order (Drupal root, profile, sites/all, and sites/*), module specificity is maintained.
 
-By replacing Drupal 7's registry with PSR-0 autoloading provided by composer, we can remove a significant part of Drupal's bootstrap and make it composer's responsibility. This also begins to disentangle the bootstrap process.
+By replacing Drupal 7's registry with PSR-0 autoloading provided by composer, I can remove a significant part of Drupal's bootstrap and make it composer's responsibility. This also begins to disentangle the bootstrap process.
 
 * [Differences between Drupal 7 and Drupal 7 Autoload](https://github.com/bangpound/drupal/compare/7.x...7.x-autoload)
 * [Differences between Drupal 7 Pimple and Drupal 7 Autoload](https://github.com/bangpound/drupal/compare/7.x-pimple...7.x-autoload)

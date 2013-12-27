@@ -28,7 +28,7 @@ The request listener also attaches the controller arguments to the request.
 
 After dispatching the kernel.request event, the HttpKernel wants to call the controller. It acquires the arguments (which were stashed away in the request object earlier) from the ControllerResolver.
 
-The HttpKernel resembles Drupal `menu_execute_active_handler()`, but we've only determined the controller. It acquires the arguments from the [ControllerResolver](https://github.com/bangpound/drupal-bundle/blob/master/Controller/ControllerResolver.php), which I've overridden to simply return the arguments attached to the Drupal-flagged requests by the request listener.
+The HttpKernel resembles Drupal `menu_execute_active_handler()`, but so far, I have only determined the name of the controller function. HttpKernel acquires the arguments from the [ControllerResolver](https://github.com/bangpound/drupal-bundle/blob/master/Controller/ControllerResolver.php), which I've overridden to simply return the arguments attached to the Drupal-flagged requests by the request listener.
 
 ## Turning return values into response objects
 
@@ -40,7 +40,7 @@ The [ViewListener](https://github.com/bangpound/drupal-bundle/blob/master/EventL
 
 In many cases, Drupal's `menu_execute_active_handler()` never finishes because the page callback never returns anything. Sometimes, the page callback deliberately calls `drupal_exit()` after echoing a string. `drupal_goto()`, ajax handlers, autocomplete field callbacks, and image generators also behave this way.
 
-This kind of behavior is not supported by Symfony HttpKernel, but it's not hard to implement. We need the Symfony HttpKernel to recover from a PHP shutdown.
+This kind of behavior is not supported by Symfony HttpKernel, but it's not hard to implement. I just need the Symfony HttpKernel to recover from (or finish up after) a PHP shutdown.
 
 I wrote a new [ShutdownableInterface](https://github.com/bangpound/drupal-bundle/blob/master/HttpKernel/ShutdownableInterface.php) for HttpKernel which defines a new method that finishes handling the request and response. When PHP shutdown happens during HttpKernel's controller phase, and the contents of the PHP output buffer are converted to a Symfony response, which is passed to HttpKernel::shutdown().
 

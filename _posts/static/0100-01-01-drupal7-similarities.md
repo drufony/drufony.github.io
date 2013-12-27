@@ -10,7 +10,7 @@ Once `drupal_bootstrap()` is simplified and overridden, the remaining problem to
 
 You might assume that Drupal 7 would require extensive rewrites to even begin to operate within the constraints of the Symfony HttpKernel. Nothing in Drupal 7 uses a Symfony request object, and no page callback returns a Symfony response object.
 
-In Drupal, we have [`menu_execute_active_handler()`](https://api.drupal.org/api/drupal/includes%21menu.inc/function/menu_execute_active_handler/7) which reads the current URL path, searches for a route that matches that path, calls the page callback, and renders the result.
+In Drupal, [`menu_execute_active_handler()`](https://api.drupal.org/api/drupal/includes%21menu.inc/function/menu_execute_active_handler/7) reads the current URL path, searches for a route that matches that path, calls the page callback, and calls another function which renders the result.
 
 {% highlight php %}<?php
 function menu_execute_active_handler($path = NULL, $deliver = TRUE) {
@@ -75,4 +75,4 @@ looks remarkably like `HttpKernel::handle()`:
 $response = call_user_func_array($controller, $arguments);
 {% endhighlight %}<!-- ?> -->
 
-Because the HttpKernel triggers events at many different points in this function, we can coax Drupal's page callbacks to work like Symfony controllers.
+Because the HttpKernel triggers events at many different points in this function, I can coax Drupal's page callbacks to work like Symfony controllers.
