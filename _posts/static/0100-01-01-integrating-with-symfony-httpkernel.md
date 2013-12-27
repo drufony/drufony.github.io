@@ -18,7 +18,7 @@ The bundle's `boot()` method calls `drupal_bootstrap()` after setting some globa
 
 The first event dispatched by the kernel is [kernel.request](http://symfony.com/doc/current/components/http_kernel/introduction.html#the-kernel-request-event). Event listeners can change the request or return a response.
 
-Thomas Rabaix of Ekino [released a Symfony bundle](http://www.ekino.com/drupal-and-symfony2-dont-wait-for-drupal8/) that integrates with Drupal entirely through [the request event](https://github.com/ekino/EkinoDrupalBundle/blob/master/Drupal/DrupalRequestListener.php). This effectively short circuits the HttpKernel, and it does not attempt to call a controller.
+Thomas Rabaix of Ekino [released a Symfony bundle](http://www.ekino.com/drupal-and-symfony2-dont-wait-for-drupal8/) that integrates with Drupal entirely through [the request event](https://github.com/ekino/EkinoDrupalBundle/blob/master/Drupal/DrupalRequestListener.php). EkinoDrupalBundle returns a response early without calling a controller. This effectively short circuits the HttpKernel and means that later events are never dispatched. (This is why EkinoDrupalBundle does not support the Symfony web profiler but my Drupal bundle does.)
 
 While this works and is functional, it means that Drupal page callbacks are not integrated into the HttpKernel. Instead, [I use the request event to modify the request](https://github.com/bangpound/drupal-bundle/blob/master/EventListener/RequestListener.php) by setting the `_controller` request attribute that specifies the Drupal page callback. The request listener also includes the file that contains the page callback and throws an exception when the user doesn't have permission to access that page.
 
