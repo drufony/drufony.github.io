@@ -59,7 +59,7 @@ I'll break this function into three parts:
 * The middle which begins with the comment `Only continue if the site status is not set` calls the Drupal page callback.
 * The end which begins with the comment `Deliver the result of the page callback to the browser` sends the page callback result to another function called a "delivery callback" which will actually render the page or *something* to the user.
 
-## `menu_execute_active_handler()` is `HttpKernelInterface::handle()`
+## A near-perfect parallel
 
 `menu_execute_active_handler()` roughly maps to the Symfony `HttpKernelInterface::handle()` method. In fact, they both have a significant element in common.
 
