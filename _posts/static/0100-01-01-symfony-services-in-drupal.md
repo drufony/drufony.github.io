@@ -23,4 +23,4 @@ In addition to the Symfony response object, I've also shared the Symfony logger 
 
 It may be desirable to pass Symfony's database connection or a caching handler to Drupal this way, too, to replace core functionality. Of course, any Symfony service could be passed to Drupal through the $GLOBALS array as long as there aren't any name collisions.
 
-Any global variable can be specified for Drupal from within Symfony this way.
+Any global variable can be specified for Drupal from within Symfony's service configuration by adding additional calls to the [bangpound_drupal.globals service](https://github.com/bangpound/drupal-bundle/blob/master/Resources/config/services.yml).
