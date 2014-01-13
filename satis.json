@@ -20,6 +20,7 @@
         }
     ],
     "output-html": false,
+    "output-dir": ".",
     "require": {
         "drupal/drupal": "*",
         "drush/drush": "dev-master",
