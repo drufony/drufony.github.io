@@ -13,6 +13,12 @@ img {
   height: auto;
 }
 
+.navbar-brand img {
+  height: 20px;
+  width: auto;
+  vertical-align: bottom;
+}
+
 .img-home-portfolio,
 .img-customer,
 .portfolio-item {
