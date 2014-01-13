@@ -1,4 +1,4 @@
 name: Symfony Drupal
 markdown: redcarpet
 pygments: true
-baseurl: /symfony-drupal
+baseurl: /
