@@ -1,19 +1,6 @@
 {
-  "name": "symfony-drupal",
-  "version": "2.4.0",
-  "homepage": "https://github.com/bangpound/symfony-drupal",
-  "authors": [
-    "Benjamin Doherty <bjd@bangpound.org>"
-  ],
-  "license": "MIT",
+  "name": "drufony",
   "private": true,
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "bower_components",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "bootstrap": "~3.0.3"
   }
