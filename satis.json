@@ -1,0 +1,29 @@
+{
+    "name": "Drufony",
+    "homepage": "http://drufony.github.io",
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/drupal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/drush"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/minimal"
+        },
+        {
+            "type": "vcs",
+            "url": "https://github.com/bangpound/standard"
+        }
+    ],
+    "output-html": false,
+    "require": {
+        "drupal/drupal": "*",
+        "drush/drush": "dev-master",
+        "drupal/minimal": "7.*@dev",
+        "drupal/standard": "7.*@dev"
+    }
+}

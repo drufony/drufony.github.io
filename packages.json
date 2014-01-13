@@ -1,0 +1,273 @@
+{
+    "packages": {
+        "drupal/drupal": {
+            "dev-7.x-autoload": {
+                "name": "drupal/drupal",
+                "version": "dev-7.x-autoload",
+                "version_normalized": "dev-7.x-autoload",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/drupal.git",
+                    "reference": "3d7a83234a00978bee6e4dbed2bf99e189752458"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3d7a83234a00978bee6e4dbed2bf99e189752458",
+                    "reference": "3d7a83234a00978bee6e4dbed2bf99e189752458",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "~1.1"
+                },
+                "time": "2014-01-13 04:11:14",
+                "type": "drupal-core",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    },
+                    "classmap": [
+                        "includes/",
+                        "misc/",
+                        "modules/",
+                        "scripts/",
+                        "themes/",
+                        "authorize.php",
+                        "cron.php",
+                        "index.php",
+                        "install.php",
+                        "update.php",
+                        "xmlrpc.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+                "support": {
+                    "source": "https://github.com/bangpound/drupal/tree/7.x-autoload"
+                }
+            },
+            "dev-7.x-pimple": {
+                "name": "drupal/drupal",
+                "version": "dev-7.x-pimple",
+                "version_normalized": "dev-7.x-pimple",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/drupal.git",
+                    "reference": "03dfcc437770eb594cea057e2d3cee360389cdca"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/03dfcc437770eb594cea057e2d3cee360389cdca",
+                    "reference": "03dfcc437770eb594cea057e2d3cee360389cdca",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "~1.1"
+                },
+                "time": "2014-01-11 00:50:55",
+                "type": "drupal-core",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    }
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+                "support": {
+                    "source": "https://github.com/bangpound/drupal/tree/7.x-pimple"
+                }
+            },
+            "dev-7.x-symfony": {
+                "name": "drupal/drupal",
+                "version": "dev-7.x-symfony",
+                "version_normalized": "dev-7.x-symfony",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/drupal.git",
+                    "reference": "5a13284df03a21eb94266aaa70f9fae860d36076"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/5a13284df03a21eb94266aaa70f9fae860d36076",
+                    "reference": "5a13284df03a21eb94266aaa70f9fae860d36076",
+                    "shasum": ""
+                },
+                "require": {
+                    "pimple/pimple": "~1.1"
+                },
+                "time": "2014-01-13 04:11:34",
+                "bin": [
+                    "scripts/drupal.sh",
+                    "scripts/password-hash.sh"
+                ],
+                "type": "drupal-core",
+                "autoload": {
+                    "psr-0": {
+                        "": "src/"
+                    },
+                    "classmap": [
+                        "includes/",
+                        "misc/",
+                        "modules/",
+                        "scripts/",
+                        "themes/",
+                        "authorize.php",
+                        "cron.php",
+                        "index.php",
+                        "install.php",
+                        "update.php",
+                        "xmlrpc.php"
+                    ]
+                },
+                "license": [
+                    "GPL-2.0+"
+                ],
+                "description": "Drupal is an open source content management platform powering millions of websites and applications.",
+                "support": {
+                    "source": "https://github.com/bangpound/drupal/tree/7.x-symfony"
+                }
+            }
+        },
+        "drupal/minimal": {
+            "7.x-dev": {
+                "name": "drupal/minimal",
+                "version": "7.x-dev",
+                "version_normalized": "7.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/minimal.git",
+                    "reference": "849009ca9c194fd327bcb69d56e9ecb45a2332f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/minimal/zipball/849009ca9c194fd327bcb69d56e9ecb45a2332f3",
+                    "reference": "849009ca9c194fd327bcb69d56e9ecb45a2332f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-01-11 02:23:41",
+                "type": "drupal-profile",
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Drupal 7 minimal profile",
+                "support": {
+                    "source": "https://github.com/bangpound/minimal/tree/7.x",
+                    "issues": "https://github.com/bangpound/minimal/issues"
+                }
+            }
+        },
+        "drupal/standard": {
+            "7.x-dev": {
+                "name": "drupal/standard",
+                "version": "7.x-dev",
+                "version_normalized": "7.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/standard.git",
+                    "reference": "ffea943ccdde8441cbf21055114191f50d4f8eee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/standard/zipball/ffea943ccdde8441cbf21055114191f50d4f8eee",
+                    "reference": "ffea943ccdde8441cbf21055114191f50d4f8eee",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-01-11 02:23:23",
+                "type": "drupal-profile",
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Drupal 7 standard profile",
+                "support": {
+                    "source": "https://github.com/bangpound/standard/tree/7.x",
+                    "issues": "https://github.com/bangpound/standard/issues"
+                }
+            }
+        },
+        "drush/drush": {
+            "dev-master": {
+                "name": "drush/drush",
+                "version": "dev-master",
+                "version_normalized": "9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/bangpound/drush.git",
+                    "reference": "bf13e9a422d15a8f72066c3325d28d424009908f"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/bangpound/drush/zipball/bf13e9a422d15a8f72066c3325d28d424009908f",
+                    "reference": "bf13e9a422d15a8f72066c3325d28d424009908f",
+                    "shasum": ""
+                },
+                "require": {
+                    "php": ">=5.3.0"
+                },
+                "require-dev": {
+                    "phpunit/phpunit": ">=3.5"
+                },
+                "time": "2013-12-29 09:02:21",
+                "bin": [
+                    "drush",
+                    "drush.php",
+                    "drush.bat",
+                    "drush.complete.sh"
+                ],
+                "type": "library",
+                "license": [
+                    "GPLv2"
+                ],
+                "authors": [
+                    {
+                        "name": "Moshe Weitzman",
+                        "email": "weitzman@tejasa.com"
+                    },
+                    {
+                        "name": "Owen Barton",
+                        "email": "drupal@owenbarton.com"
+                    },
+                    {
+                        "name": "Mark Sonnabaum",
+                        "email": "marksonnabaum@gmail.com"
+                    },
+                    {
+                        "name": "Antoine Beaupré",
+                        "email": "anarcat@koumbit.org"
+                    },
+                    {
+                        "name": "Greg Anderson",
+                        "email": "greg.1.anderson@greenknowe.org"
+                    },
+                    {
+                        "name": "Jonathan Araña Cruz",
+                        "email": "jonhattan@faita.net"
+                    },
+                    {
+                        "name": "Jonathan Hedstrom",
+                        "email": "jhedstrom@gmail.com"
+                    }
+                ],
+                "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
+                "homepage": "http://www.drush.org",
+                "support": {
+                    "source": "https://github.com/bangpound/drush/tree/master"
+                }
+            }
+        }
+    }
+}

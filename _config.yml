@@ -2,3 +2,4 @@ name: Symfony Drupal
 markdown: redcarpet
 pygments: true
 baseurl: /
+exclude: [satis.json, bower.json]
