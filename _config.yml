@@ -2,4 +2,8 @@ name: Drufony
 markdown: redcarpet
 pygments: true
 baseurl: ''
-exclude: [Gemfile, Gemfile.lock, satis.json, bower.json]
+exclude:
+  - .Gemfile
+  - Gemfile.lock
+  - satis.json
+  - bower.json
