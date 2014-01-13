@@ -1,4 +1,4 @@
-name: Symfony Drupal
+name: Drufony
 markdown: redcarpet
 pygments: true
 exclude: [Gemfile, Gemfile.lock, satis.json, bower.json]
