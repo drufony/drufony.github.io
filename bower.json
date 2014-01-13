@@ -2,6 +2,7 @@
   "name": "drufony",
   "private": true,
   "dependencies": {
-    "bootstrap": "~3.0"
+    "bootstrap": "~3.0",
+    "font-awesome": "~4.0"
   }
 }
