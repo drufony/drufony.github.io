@@ -8,35 +8,34 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "dc8ecf97b51c86edb8c5f6d286c9c603409cfc95"
+                    "reference": "3408e66b5c4b54ffcf19ad7f31da87f1769cde69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/dc8ecf97b51c86edb8c5f6d286c9c603409cfc95",
-                    "reference": "dc8ecf97b51c86edb8c5f6d286c9c603409cfc95",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3408e66b5c4b54ffcf19ad7f31da87f1769cde69",
+                    "reference": "3408e66b5c4b54ffcf19ad7f31da87f1769cde69",
                     "shasum": ""
                 },
                 "require": {
-                    "pimple/pimple": "~1.1"
+                    "pimple/pimple": "~1.1",
+                    "symfony/class-loader": "~2.4"
                 },
-                "time": "2014-01-15 22:11:00",
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev"
+                },
+                "time": "2014-01-17 14:56:46",
                 "type": "drupal-core",
                 "autoload": {
                     "psr-0": {
                         "": "src/"
-                    },
-                    "classmap": [
-                        "includes/",
-                        "misc/",
-                        "modules/",
-                        "scripts/",
-                        "themes/",
-                        "authorize.php",
-                        "cron.php",
-                        "index.php",
-                        "install.php",
-                        "update.php",
-                        "xmlrpc.php"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
+                    ],
+                    "post-update-cmd": [
+                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
                     ]
                 },
                 "license": [
@@ -87,18 +86,22 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "9d7db9f8cdd614a40e00ba654b22d53b2a7ee666"
+                    "reference": "649d9e17bc2f54d6853c1f08610e6059ebfb5faa"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/9d7db9f8cdd614a40e00ba654b22d53b2a7ee666",
-                    "reference": "9d7db9f8cdd614a40e00ba654b22d53b2a7ee666",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/649d9e17bc2f54d6853c1f08610e6059ebfb5faa",
+                    "reference": "649d9e17bc2f54d6853c1f08610e6059ebfb5faa",
                     "shasum": ""
                 },
                 "require": {
-                    "pimple/pimple": "~1.1"
+                    "pimple/pimple": "~1.1",
+                    "symfony/class-loader": "~2.4"
                 },
-                "time": "2014-01-15 22:11:06",
+                "require-dev": {
+                    "composer/composer": "1.0.*@dev"
+                },
+                "time": "2014-01-20 18:37:49",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -107,19 +110,14 @@
                 "autoload": {
                     "psr-0": {
                         "": "src/"
-                    },
-                    "classmap": [
-                        "includes/",
-                        "misc/",
-                        "modules/",
-                        "scripts/",
-                        "themes/",
-                        "authorize.php",
-                        "cron.php",
-                        "index.php",
-                        "install.php",
-                        "update.php",
-                        "xmlrpc.php"
+                    }
+                },
+                "scripts": {
+                    "post-install-cmd": [
+                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
+                    ],
+                    "post-update-cmd": [
+                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
                     ]
                 },
                 "license": [
