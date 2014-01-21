@@ -8,28 +8,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "3408e66b5c4b54ffcf19ad7f31da87f1769cde69"
+                    "reference": "acdae9078572ffd06207024dd6eace5d4cab4b69"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3408e66b5c4b54ffcf19ad7f31da87f1769cde69",
-                    "reference": "3408e66b5c4b54ffcf19ad7f31da87f1769cde69",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/acdae9078572ffd06207024dd6eace5d4cab4b69",
+                    "reference": "acdae9078572ffd06207024dd6eace5d4cab4b69",
                     "shasum": ""
                 },
                 "require": {
-                    "pimple/pimple": "~1.1",
-                    "symfony/class-loader": "~2.4"
+                    "bangpound/drupal-bootstrap": "dev-master"
                 },
-                "require-dev": {
-                    "composer/composer": "1.0.*@dev"
-                },
-                "time": "2014-01-17 14:56:46",
+                "time": "2014-01-21 17:36:13",
                 "type": "drupal-core",
-                "autoload": {
-                    "psr-0": {
-                        "": "src/"
-                    }
-                },
                 "scripts": {
                     "post-install-cmd": [
                         "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
@@ -53,24 +44,19 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "3ab27de2be1b47f7e78aed5ef0afa8a813d232c3"
+                    "reference": "3f9ee30f82acf9d19b51317d87c1044e5da9b030"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3ab27de2be1b47f7e78aed5ef0afa8a813d232c3",
-                    "reference": "3ab27de2be1b47f7e78aed5ef0afa8a813d232c3",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3f9ee30f82acf9d19b51317d87c1044e5da9b030",
+                    "reference": "3f9ee30f82acf9d19b51317d87c1044e5da9b030",
                     "shasum": ""
                 },
                 "require": {
-                    "pimple/pimple": "~1.1"
+                    "bangpound/drupal-bootstrap": "dev-master"
                 },
-                "time": "2014-01-15 22:10:40",
+                "time": "2014-01-21 17:31:27",
                 "type": "drupal-core",
-                "autoload": {
-                    "psr-0": {
-                        "": "src/"
-                    }
-                },
                 "license": [
                     "GPL-2.0+"
                 ],
@@ -86,32 +72,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "649d9e17bc2f54d6853c1f08610e6059ebfb5faa"
+                    "reference": "59486a571b16633d8df34c8a76031ce171a11ae7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/649d9e17bc2f54d6853c1f08610e6059ebfb5faa",
-                    "reference": "649d9e17bc2f54d6853c1f08610e6059ebfb5faa",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/59486a571b16633d8df34c8a76031ce171a11ae7",
+                    "reference": "59486a571b16633d8df34c8a76031ce171a11ae7",
                     "shasum": ""
                 },
                 "require": {
-                    "pimple/pimple": "~1.1",
-                    "symfony/class-loader": "~2.4"
+                    "bangpound/drupal-bootstrap": "dev-master"
                 },
-                "require-dev": {
-                    "composer/composer": "1.0.*@dev"
-                },
-                "time": "2014-01-20 18:37:49",
+                "time": "2014-01-21 17:38:13",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
                 ],
                 "type": "drupal-core",
-                "autoload": {
-                    "psr-0": {
-                        "": "src/"
-                    }
-                },
                 "scripts": {
                     "post-install-cmd": [
                         "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
