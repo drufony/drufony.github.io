@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "76ae342ee1ab1bed9bfaf4742e457a4e63e46c49"
+                    "reference": "c6cbd5b532bc5b10fd1276b0dc9f4a8e99b5fd34"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/76ae342ee1ab1bed9bfaf4742e457a4e63e46c49",
-                    "reference": "76ae342ee1ab1bed9bfaf4742e457a4e63e46c49",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/c6cbd5b532bc5b10fd1276b0dc9f4a8e99b5fd34",
+                    "reference": "c6cbd5b532bc5b10fd1276b0dc9f4a8e99b5fd34",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-01-21 17:53:09",
+                "time": "2014-02-09 16:13:40",
                 "type": "drupal-core",
                 "scripts": {
                     "post-install-cmd": [
@@ -44,18 +44,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "0620cfd8a3549595c08e09c543fc129200680220"
+                    "reference": "6ea3e30b8c73cd3c4e2ad38a79993af605a96198"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/0620cfd8a3549595c08e09c543fc129200680220",
-                    "reference": "0620cfd8a3549595c08e09c543fc129200680220",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/6ea3e30b8c73cd3c4e2ad38a79993af605a96198",
+                    "reference": "6ea3e30b8c73cd3c4e2ad38a79993af605a96198",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-01-21 17:53:03",
+                "time": "2014-02-09 16:13:15",
                 "type": "drupal-core",
                 "license": [
                     "GPL-2.0+"
@@ -72,18 +72,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "faa133423f75b14adde5f4c8a73a32d3dbb2b51c"
+                    "reference": "1fc2dcfa19ddcae8b42a6088031749e8b5247435"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/faa133423f75b14adde5f4c8a73a32d3dbb2b51c",
-                    "reference": "faa133423f75b14adde5f4c8a73a32d3dbb2b51c",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/1fc2dcfa19ddcae8b42a6088031749e8b5247435",
+                    "reference": "1fc2dcfa19ddcae8b42a6088031749e8b5247435",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-01-21 17:53:19",
+                "time": "2014-02-09 16:13:50",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
