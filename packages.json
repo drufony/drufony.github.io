@@ -175,19 +175,19 @@
             }
         },
         "drush/drush": {
-            "dev-master": {
+            "dev-develop": {
                 "name": "drush/drush",
-                "version": "dev-master",
-                "version_normalized": "9999999-dev",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drush.git",
-                    "reference": "21fe34ad4aa75314369f2eef54891e344cffc7a2"
+                    "reference": "e025af506948530ea28aafd953243598ad8af03b"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drush/zipball/21fe34ad4aa75314369f2eef54891e344cffc7a2",
-                    "reference": "21fe34ad4aa75314369f2eef54891e344cffc7a2",
+                    "url": "https://api.github.com/repos/bangpound/drush/zipball/e025af506948530ea28aafd953243598ad8af03b",
+                    "reference": "e025af506948530ea28aafd953243598ad8af03b",
                     "shasum": ""
                 },
                 "require": {
@@ -202,7 +202,7 @@
                 "suggest": {
                     "youngj/httpserver": "dev-master#41dd2b7 as 1.0.1"
                 },
-                "time": "2014-03-12 15:57:28",
+                "time": "2014-03-18 01:07:21",
                 "bin": [
                     "drush",
                     "drush.php",
@@ -253,7 +253,7 @@
                 "support": {
                     "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
                     "irc": "irc://irc.freenode.org/drush",
-                    "source": "https://github.com/bangpound/drush/tree/master"
+                    "source": "https://github.com/bangpound/drush/tree/develop"
                 }
             }
         }
