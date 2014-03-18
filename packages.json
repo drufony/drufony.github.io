@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "5a94d8233bedb7a3f972d3d5056a44de7d5cd14b"
+                    "reference": "a05c501330c7ebbc7e435fd0f44b7f886eba7871"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/5a94d8233bedb7a3f972d3d5056a44de7d5cd14b",
-                    "reference": "5a94d8233bedb7a3f972d3d5056a44de7d5cd14b",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/a05c501330c7ebbc7e435fd0f44b7f886eba7871",
+                    "reference": "a05c501330c7ebbc7e435fd0f44b7f886eba7871",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-03-05 02:59:53",
+                "time": "2014-03-17 21:16:54",
                 "type": "drupal-core",
                 "scripts": {
                     "post-install-cmd": [
@@ -44,18 +44,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "2f2d5ca0131b3ee00befa2bc2a724cc29f3313a6"
+                    "reference": "586089b614af38639dc13183d5bd24f52bcb1756"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/2f2d5ca0131b3ee00befa2bc2a724cc29f3313a6",
-                    "reference": "2f2d5ca0131b3ee00befa2bc2a724cc29f3313a6",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/586089b614af38639dc13183d5bd24f52bcb1756",
+                    "reference": "586089b614af38639dc13183d5bd24f52bcb1756",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-03-05 02:59:42",
+                "time": "2014-03-17 21:16:46",
                 "type": "drupal-core",
                 "license": [
                     "GPL-2.0+"
@@ -72,18 +72,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "3bf747c941ba40aad03f653a8d0be78eeda8561f"
+                    "reference": "b112ee0a722d1f65e0f63b8390e6a06745d0013d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/3bf747c941ba40aad03f653a8d0be78eeda8561f",
-                    "reference": "3bf747c941ba40aad03f653a8d0be78eeda8561f",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/b112ee0a722d1f65e0f63b8390e6a06745d0013d",
+                    "reference": "b112ee0a722d1f65e0f63b8390e6a06745d0013d",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-03-05 03:00:08",
+                "time": "2014-03-17 21:17:01",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -182,21 +182,27 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drush.git",
-                    "reference": "bf13e9a422d15a8f72066c3325d28d424009908f"
+                    "reference": "21fe34ad4aa75314369f2eef54891e344cffc7a2"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drush/zipball/bf13e9a422d15a8f72066c3325d28d424009908f",
-                    "reference": "bf13e9a422d15a8f72066c3325d28d424009908f",
+                    "url": "https://api.github.com/repos/bangpound/drush/zipball/21fe34ad4aa75314369f2eef54891e344cffc7a2",
+                    "reference": "21fe34ad4aa75314369f2eef54891e344cffc7a2",
                     "shasum": ""
                 },
                 "require": {
-                    "php": ">=5.3.0"
+                    "d11wtq/boris": "*",
+                    "pear/console_table": "1.1.5",
+                    "php": ">=5.3.0",
+                    "symfony/yaml": "2.2.1"
                 },
                 "require-dev": {
                     "phpunit/phpunit": ">=3.5"
                 },
-                "time": "2013-12-29 09:02:21",
+                "suggest": {
+                    "youngj/httpserver": "dev-master#41dd2b7 as 1.0.1"
+                },
+                "time": "2014-03-12 15:57:28",
                 "bin": [
                     "drush",
                     "drush.php",
@@ -204,8 +210,13 @@
                     "drush.complete.sh"
                 ],
                 "type": "library",
+                "autoload": {
+                    "psr-0": {
+                        "Drush": "lib/"
+                    }
+                },
                 "license": [
-                    "GPLv2"
+                    "GPL-2.0+"
                 ],
                 "authors": [
                     {
@@ -240,6 +251,8 @@
                 "description": "Drush is a command line shell and scripting interface for Drupal, a veritable Swiss Army knife designed to make life easier for those of us who spend some of our working hours hacking away at the command prompt.",
                 "homepage": "http://www.drush.org",
                 "support": {
+                    "forum": "http://drupal.stackexchange.com/questions/tagged/drush",
+                    "irc": "irc://irc.freenode.org/drush",
                     "source": "https://github.com/bangpound/drush/tree/master"
                 }
             }
