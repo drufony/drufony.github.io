@@ -182,12 +182,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drush.git",
-                    "reference": "309d647c8826395e9a4788477adfb0c95d9227cf"
+                    "reference": "e6caf2b89bee906fe28888cd34f4a5764e1812c5"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drush/zipball/309d647c8826395e9a4788477adfb0c95d9227cf",
-                    "reference": "309d647c8826395e9a4788477adfb0c95d9227cf",
+                    "url": "https://api.github.com/repos/bangpound/drush/zipball/e6caf2b89bee906fe28888cd34f4a5764e1812c5",
+                    "reference": "e6caf2b89bee906fe28888cd34f4a5764e1812c5",
                     "shasum": ""
                 },
                 "require": {
@@ -202,7 +202,7 @@
                 "suggest": {
                     "youngj/httpserver": "dev-master#41dd2b7 as 1.0.1"
                 },
-                "time": "2014-03-18 01:27:11",
+                "time": "2014-03-25 17:50:12",
                 "bin": [
                     "drush",
                     "drush.php",
