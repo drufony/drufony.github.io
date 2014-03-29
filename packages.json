@@ -72,18 +72,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "4732989c8351bb54c71b8c2825488e190ebce0c8"
+                    "reference": "10a3a31a96d5f506418b18b22c9db64a2ee49ed9"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/4732989c8351bb54c71b8c2825488e190ebce0c8",
-                    "reference": "4732989c8351bb54c71b8c2825488e190ebce0c8",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/10a3a31a96d5f506418b18b22c9db64a2ee49ed9",
+                    "reference": "10a3a31a96d5f506418b18b22c9db64a2ee49ed9",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-03-29 11:26:17",
+                "time": "2014-03-29 14:36:01",
                 "type": "drupal-core",
                 "license": [
                     "GPL-2.0+"
