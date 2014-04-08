@@ -40,18 +40,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "d8e61ecd733853b7431f02e5a75712ad8fe9c603"
+                    "reference": "38b04f9622b0e9a8987ad6d48939c01c339f9bbe"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/d8e61ecd733853b7431f02e5a75712ad8fe9c603",
-                    "reference": "d8e61ecd733853b7431f02e5a75712ad8fe9c603",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/38b04f9622b0e9a8987ad6d48939c01c339f9bbe",
+                    "reference": "38b04f9622b0e9a8987ad6d48939c01c339f9bbe",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-07 19:06:46",
+                "time": "2014-04-08 08:22:46",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -72,18 +72,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "e6af7bc8d04a4da8f4f231d778ac80cd7f2b5c43"
+                    "reference": "4267a9c747f1f4f462666177b9c858b284695da7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/e6af7bc8d04a4da8f4f231d778ac80cd7f2b5c43",
-                    "reference": "e6af7bc8d04a4da8f4f231d778ac80cd7f2b5c43",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/4267a9c747f1f4f462666177b9c858b284695da7",
+                    "reference": "4267a9c747f1f4f462666177b9c858b284695da7",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-07 19:06:50",
+                "time": "2014-04-08 08:26:22",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
