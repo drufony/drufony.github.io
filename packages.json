@@ -72,31 +72,23 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "4267a9c747f1f4f462666177b9c858b284695da7"
+                    "reference": "9cb137acb254597ea9cb7e40bc14a6f7a9e177cf"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/4267a9c747f1f4f462666177b9c858b284695da7",
-                    "reference": "4267a9c747f1f4f462666177b9c858b284695da7",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/9cb137acb254597ea9cb7e40bc14a6f7a9e177cf",
+                    "reference": "9cb137acb254597ea9cb7e40bc14a6f7a9e177cf",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-08 08:26:22",
+                "time": "2014-04-08 09:10:30",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
                 ],
                 "type": "drupal-core",
-                "scripts": {
-                    "post-install-cmd": [
-                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
-                    ],
-                    "post-update-cmd": [
-                        "Bangpound\\Drupal\\Composer\\ScriptHandler::dumpAutoload"
-                    ]
-                },
                 "license": [
                     "GPL-2.0+"
                 ],
