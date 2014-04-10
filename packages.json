@@ -248,6 +248,44 @@
                     "source": "https://github.com/bangpound/drush/tree/develop"
                 }
             }
+        },
+        "winmillwill/composer-drupal": {
+            "dev-develop": {
+                "name": "winmillwill/composer-drupal",
+                "version": "dev-develop",
+                "version_normalized": "dev-develop",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/drufony/composer-drupal.git",
+                    "reference": "9652776658e5f1c21e90c545744a56f159c7dbb4"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/drufony/composer-drupal/zipball/9652776658e5f1c21e90c545744a56f159c7dbb4",
+                    "reference": "9652776658e5f1c21e90c545744a56f159c7dbb4",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer-plugin-api": "1.0.0"
+                },
+                "time": "2014-04-10 06:32:56",
+                "type": "composer-plugin",
+                "extra": {
+                    "class": "Bangpound\\Composer\\Drupal\\Plugin"
+                },
+                "autoload": {
+                    "psr-4": {
+                        "Bangpound\\Composer\\Drupal\\": "src/"
+                    }
+                },
+                "license": [
+                    "Apache-2.0"
+                ],
+                "description": "not as bad as drush make",
+                "support": {
+                    "source": "https://github.com/drufony/composer-drupal/tree/develop"
+                }
+            }
         }
     }
 }
