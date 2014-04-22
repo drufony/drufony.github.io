@@ -8,18 +8,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "e876a2334deeeca43b45ee24dfb8e07e455c9a22"
+                    "reference": "5bda19319b0e2cba144ed604ed64f336dadd745e"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/e876a2334deeeca43b45ee24dfb8e07e455c9a22",
-                    "reference": "e876a2334deeeca43b45ee24dfb8e07e455c9a22",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/5bda19319b0e2cba144ed604ed64f336dadd745e",
+                    "reference": "5bda19319b0e2cba144ed604ed64f336dadd745e",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-17 00:34:00",
+                "time": "2014-04-22 04:06:46",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -40,18 +40,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "232c1a1c331b005d08b61e2c94046a8e9e1b1189"
+                    "reference": "e1ced9dbdcf313d614c7c60d6219d503e705f8ac"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/232c1a1c331b005d08b61e2c94046a8e9e1b1189",
-                    "reference": "232c1a1c331b005d08b61e2c94046a8e9e1b1189",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/e1ced9dbdcf313d614c7c60d6219d503e705f8ac",
+                    "reference": "e1ced9dbdcf313d614c7c60d6219d503e705f8ac",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-17 00:34:15",
+                "time": "2014-04-22 04:07:05",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -72,18 +72,18 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "28a4320715b2f3f0ce592eea06789e2bad76770a"
+                    "reference": "87fcbc1daa3238b697945351fea7219c559cd3e7"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/28a4320715b2f3f0ce592eea06789e2bad76770a",
-                    "reference": "28a4320715b2f3f0ce592eea06789e2bad76770a",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/87fcbc1daa3238b697945351fea7219c559cd3e7",
+                    "reference": "87fcbc1daa3238b697945351fea7219c559cd3e7",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0"
                 },
-                "time": "2014-04-17 00:34:23",
+                "time": "2014-04-22 04:07:12",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -179,12 +179,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drush.git",
-                    "reference": "e6caf2b89bee906fe28888cd34f4a5764e1812c5"
+                    "reference": "4b5a0eefa1ce858522b8fc3e6f450221d6e24443"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drush/zipball/e6caf2b89bee906fe28888cd34f4a5764e1812c5",
-                    "reference": "e6caf2b89bee906fe28888cd34f4a5764e1812c5",
+                    "url": "https://api.github.com/repos/bangpound/drush/zipball/4b5a0eefa1ce858522b8fc3e6f450221d6e24443",
+                    "reference": "4b5a0eefa1ce858522b8fc3e6f450221d6e24443",
                     "shasum": ""
                 },
                 "require": {
@@ -199,7 +199,7 @@
                 "suggest": {
                     "youngj/httpserver": "dev-master#41dd2b7 as 1.0.1"
                 },
-                "time": "2014-03-25 17:50:12",
+                "time": "2014-04-22 04:04:51",
                 "bin": [
                     "drush",
                     "drush.php",
@@ -210,6 +210,11 @@
                 "autoload": {
                     "psr-0": {
                         "Drush": "lib/"
+                    }
+                },
+                "autoload-dev": {
+                    "psr-0": {
+                        "Unish": "tests/"
                     }
                 },
                 "license": [
