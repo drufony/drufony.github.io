@@ -27,7 +27,7 @@
     "output-dir": ".",
     "require": {
         "drupal/drupal": "*",
-        "drush/drush": "dev-develop",
+        "drush/drush": "*",
         "drupal/minimal": "7.*@dev",
         "drupal/standard": "7.*@dev",
         "winmillwill/composer-drupal": "dev-develop"
