@@ -8,12 +8,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "71064885b0578fe999434decee8357b79db8085c"
+                    "reference": "fb57d169c32c4b8780ea64297a34b6480698670d"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/71064885b0578fe999434decee8357b79db8085c",
-                    "reference": "71064885b0578fe999434decee8357b79db8085c",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/fb57d169c32c4b8780ea64297a34b6480698670d",
+                    "reference": "fb57d169c32c4b8780ea64297a34b6480698670d",
                     "shasum": ""
                 },
                 "require": {
@@ -21,12 +21,19 @@
                     "drush/drush": "7.0.*@dev",
                     "ext-gd": "*"
                 },
-                "time": "2014-05-06 04:06:47",
+                "time": "2014-05-06 04:51:49",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
                 ],
                 "type": "drupal-core",
+                "autoload": {
+                    "classmap": [
+                        "includes/",
+                        "modules/",
+                        "themes/"
+                    ]
+                },
                 "license": [
                     "GPL-2.0+"
                 ],
@@ -42,12 +49,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "7730e06bce0ca85250fcbdd0750fa7dbf626c627"
+                    "reference": "96d0ed819f2340288a68cbf1d961d81186c0d032"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/7730e06bce0ca85250fcbdd0750fa7dbf626c627",
-                    "reference": "7730e06bce0ca85250fcbdd0750fa7dbf626c627",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/96d0ed819f2340288a68cbf1d961d81186c0d032",
+                    "reference": "96d0ed819f2340288a68cbf1d961d81186c0d032",
                     "shasum": ""
                 },
                 "require": {
@@ -55,12 +62,19 @@
                     "drush/drush": "7.0.*@dev",
                     "ext-gd": "*"
                 },
-                "time": "2014-05-06 04:06:53",
+                "time": "2014-05-06 04:52:01",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
                 ],
                 "type": "drupal-core",
+                "autoload": {
+                    "classmap": [
+                        "includes/",
+                        "modules/",
+                        "themes/"
+                    ]
+                },
                 "license": [
                     "GPL-2.0+"
                 ],
@@ -76,12 +90,12 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/bangpound/drupal.git",
-                    "reference": "64dfa9d2de3ec066b7187ef1f6461f34bb3d9e70"
+                    "reference": "210e0df3e9ac639510236cacad9557508577a33a"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/64dfa9d2de3ec066b7187ef1f6461f34bb3d9e70",
-                    "reference": "64dfa9d2de3ec066b7187ef1f6461f34bb3d9e70",
+                    "url": "https://api.github.com/repos/bangpound/drupal/zipball/210e0df3e9ac639510236cacad9557508577a33a",
+                    "reference": "210e0df3e9ac639510236cacad9557508577a33a",
                     "shasum": ""
                 },
                 "require": {
@@ -89,7 +103,7 @@
                     "drush/drush": "7.0.*@dev",
                     "ext-gd": "*"
                 },
-                "time": "2014-05-06 04:06:58",
+                "time": "2014-05-06 04:52:39",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
@@ -97,7 +111,9 @@
                 "type": "drupal-core",
                 "autoload": {
                     "classmap": [
-                        "includes/"
+                        "includes/",
+                        "modules/",
+                        "themes/"
                     ]
                 },
                 "license": [
