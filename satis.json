@@ -4,7 +4,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/bangpound/drupal"
+            "url": "https://github.com/drufony/drupal"
         },
         {
             "type": "vcs",
@@ -12,11 +12,11 @@
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bangpound/minimal"
+            "url": "https://github.com/drufony/minimal"
         },
         {
             "type": "vcs",
-            "url": "https://github.com/bangpound/standard"
+            "url": "https://github.com/drufony/standard"
         },
         {
             "type": "vcs",
