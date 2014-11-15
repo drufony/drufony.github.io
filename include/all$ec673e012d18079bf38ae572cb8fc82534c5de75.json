@@ -1031,17 +1031,17 @@
                 "source": {
                     "type": "git",
                     "url": "https://github.com/drufony/drupal.git",
-                    "reference": "9f1c2ae76af5c14efaa74509cadf264fb4d0b555"
+                    "reference": "4f0e38c29bc65eb40efa742569923c84e8210670"
                 },
                 "dist": {
                     "type": "zip",
-                    "url": "https://api.github.com/repos/drufony/drupal/zipball/9f1c2ae76af5c14efaa74509cadf264fb4d0b555",
-                    "reference": "9f1c2ae76af5c14efaa74509cadf264fb4d0b555",
+                    "url": "https://api.github.com/repos/drufony/drupal/zipball/4f0e38c29bc65eb40efa742569923c84e8210670",
+                    "reference": "4f0e38c29bc65eb40efa742569923c84e8210670",
                     "shasum": ""
                 },
                 "require": {
                     "bangpound/drupal-bootstrap": "~1.0",
-                    "drush/drush": "7.0.*@dev",
+                    "drush/drush": "dev-master",
                     "ext-date": "*",
                     "ext-dom": "*",
                     "ext-filter": "*",
@@ -1056,7 +1056,7 @@
                     "ext-xml": "*",
                     "php": ">=5.2.4"
                 },
-                "time": "2014-11-15 21:41:55",
+                "time": "2014-11-15 22:03:44",
                 "bin": [
                     "scripts/drupal.sh",
                     "scripts/password-hash.sh"
