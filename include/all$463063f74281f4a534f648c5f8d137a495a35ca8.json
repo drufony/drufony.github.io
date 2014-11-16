@@ -1,0 +1,72 @@
+{
+    "packages": {
+        "drupal/minimal": {
+            "7.x-dev": {
+                "name": "drupal/minimal",
+                "version": "7.x-dev",
+                "version_normalized": "7.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/drufony/minimal.git",
+                    "reference": "849009ca9c194fd327bcb69d56e9ecb45a2332f3"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/drufony/minimal/zipball/849009ca9c194fd327bcb69d56e9ecb45a2332f3",
+                    "reference": "849009ca9c194fd327bcb69d56e9ecb45a2332f3",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-01-11 02:23:41",
+                "type": "drupal-profile",
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Drupal 7 minimal profile",
+                "support": {
+                    "source": "https://github.com/drufony/minimal/tree/7.x",
+                    "issues": "https://github.com/drufony/minimal/issues"
+                }
+            }
+        },
+        "drupal/standard": {
+            "7.x-dev": {
+                "name": "drupal/standard",
+                "version": "7.x-dev",
+                "version_normalized": "7.9999999.9999999.9999999-dev",
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/drufony/standard.git",
+                    "reference": "ffea943ccdde8441cbf21055114191f50d4f8eee"
+                },
+                "dist": {
+                    "type": "zip",
+                    "url": "https://api.github.com/repos/drufony/standard/zipball/ffea943ccdde8441cbf21055114191f50d4f8eee",
+                    "reference": "ffea943ccdde8441cbf21055114191f50d4f8eee",
+                    "shasum": ""
+                },
+                "require": {
+                    "composer/installers": "~1.0"
+                },
+                "time": "2014-01-11 02:23:23",
+                "type": "drupal-profile",
+                "authors": [
+                    {
+                        "name": "Benjamin Doherty",
+                        "email": "bjd@bangpound.org"
+                    }
+                ],
+                "description": "Drupal 7 standard profile",
+                "support": {
+                    "source": "https://github.com/drufony/standard/tree/7.x",
+                    "issues": "https://github.com/drufony/standard/issues"
+                }
+            }
+        }
+    }
+}

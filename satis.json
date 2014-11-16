@@ -4,32 +4,17 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/drufony/drupal"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/bangpound/drush"
-        },
-        {
-            "type": "vcs",
             "url": "https://github.com/drufony/minimal"
         },
         {
             "type": "vcs",
             "url": "https://github.com/drufony/standard"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/drufony/composer-drupal"
         }
     ],
     "output-html": false,
     "output-dir": ".",
     "require": {
-        "drupal/drupal": "*",
-        "drush/drush": "*",
         "drupal/minimal": "7.*@dev",
-        "drupal/standard": "7.*@dev",
-        "winmillwill/composer-drupal": "dev-develop"
+        "drupal/standard": "7.*@dev"
     }
 }
